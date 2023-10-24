@@ -1,0 +1,37 @@
+.top_bar {
+  padding: 15px 150px;
+  /* 為甚麼有兩個PX才能出來 */
+  background-color: #474747;
+}
+.top_bar ul {
+  display: inline;
+}
+.top_bar li {
+  display: inline-block;
+  padding-left: 12px;
+  color: aliceblue;
+}
+.ntua_kitchen_nav {
+  padding: 30px 150px;
+}
+.ntua_kitchen_nav ul {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: aquamarine;
+  width: calc(100% - 450px);
+  text-align: right;
+}
+.ntua_kitchen_nav li {
+  display: inline-block;
+}
+.ntua_kitchen_nav a {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #2c2f24;
+  vertical-align: middle;
+  padding: 10px;
+}
+.txt,
+i {
+  color: antiquewhite;
+}
